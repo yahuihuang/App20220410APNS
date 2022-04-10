@@ -26,6 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
           completionHandler: { _, _ in }
           )
           
+        application.registerForRemoteNotifications()
+        
         return true
     }
 
